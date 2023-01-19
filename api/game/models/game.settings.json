@@ -42,12 +42,11 @@
     "rating": {
       "type": "enumeration",
       "enum": [
-        "FREE",
-        "PEGI3",
-        "PEGI7",
-        "PEGI12",
-        "PEGI16",
-        "PEGI18"
+        "BR0",
+        "BR10",
+        "BR12",
+        "BR16",
+        "BR18"
       ]
     },
     "cover": {
