@@ -8031,6 +8031,11 @@ nodemailer-shared@1.1.0:
   dependencies:
     nodemailer-fetch "1.6.0"
 
+nodemailer@6.6.1:
+  version "6.6.1"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.6.1.tgz#2a05fbf205b897d71bf43884167b5d4d3bd01b99"
+  integrity sha512-1xzFN3gqv+/qJ6YRyxBxfTYstLNt0FCtZaFRvf4Sg9wxNGWbwFmGXVpfSi6ThGK6aRxAo+KjHtYSW8NvCsNSAg==
+
 normalize-path@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-2.1.1.tgz#1ab28b556e198363a8c1a6f7e6fa20137fe6aed9"
@@ -11005,6 +11010,14 @@ strapi-plugin-users-permissions@3.6.8:
     strapi-helper-plugin "3.6.8"
     strapi-utils "3.6.8"
     uuid "^3.1.0"
+
+strapi-provider-email-nodemailer@^3.5.3:
+  version "3.6.11"
+  resolved "https://registry.yarnpkg.com/strapi-provider-email-nodemailer/-/strapi-provider-email-nodemailer-3.6.11.tgz#b37bbe120953b9d0d68685caf28834c78becc734"
+  integrity sha512-y6LZXnGai9axH2c//wFFsEsWsrdFlkxg8ujzqpQ9X4uwvqrXCwdZhDO3+cTzIs+NsWRhUjr5D1WE81IZ+EGtOQ==
+  dependencies:
+    lodash "4.17.21"
+    nodemailer "6.6.1"
 
 strapi-provider-email-sendmail@3.6.8:
   version "3.6.8"
